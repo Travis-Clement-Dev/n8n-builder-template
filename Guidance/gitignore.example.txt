@@ -1,0 +1,22 @@
+# === SECRETS — NEVER COMMIT ===
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Cursor MCP config (contains API keys in env blocks)
+.cursor/mcp.json
+
+# === IDE & OS ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# === Node (if you use npm/npx for MCP servers) ===
+node_modules/
+package-lock.json
+
+# === Logs ===
+*.log

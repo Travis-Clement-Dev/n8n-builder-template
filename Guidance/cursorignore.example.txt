@@ -1,0 +1,8 @@
+# Prevent Cursor AI from indexing secrets
+.env
+.env.*
+.cursor/mcp.json
+
+# Large or irrelevant files
+node_modules/
+*.log
